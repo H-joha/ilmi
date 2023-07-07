@@ -14,6 +14,31 @@
   src: url(../fonts/GowunBatang-Bold.eot?#iefix) format('embedded-opentype'), url(../fonts/GowunBatang-Bold.woff) format('woff'), url(../fonts/GowunBatang-Bold.ttf) format('truetype');
 }
 
+/* css 컬러 선언 */
+:root {
+  --color-point01: #e1ae5f;
+  --color-point02: #d9c9b3;
+  --color-point03: #c8a666;
+  --color-point04: #beb3a1;
+  --color-point05: #a79074;
+
+  --color-point06: #dddddd;
+  --color-point07: #e5e5e5;
+  --color-point08: #fffbeb;
+  --color-point09: #ffffff;
+  --color-point10: #5e5851;
+  --color-point11: #4d4d4d;
+  --color-point12: #302f2e;
+
+  --color-point13: #999999;
+  --color-point14: #919191;
+  --color-point15: #666666;
+  --color-point16: #303030;
+  --color-point17: #222222;
+  --color-point18: #111111;
+  --color-point19: #000000;
+}
+
 /* 반응형, 모바일에서 모든요소의 패딩,선을 크기안에 포함시킴
 - 레이아웃에 관련되므로 운영코딩시에는 주의를 요함*/
 *,
@@ -302,14 +327,6 @@ textarea {
   background: #f8f8f8;
   padding: 15px;
   box-sizing: border-box;
-}
-
-/* 글자색 공통 */
-.txt_point01 {
-  color: #4dac27;
-}
-.txt_point02 {
-  color: #474c98;
 }
 
 /* 크롬,엣지 스크롤바 */
@@ -985,7 +1002,7 @@ textarea {
 }
 #footer .f_info .txt_wrap dt {
   font-weight: 300;
-  color: #dddd;
+  color: #ddd;
 }
 #footer .f_info .txt_wrap dd {
   margin-left: 5px;
